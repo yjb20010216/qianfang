@@ -23,8 +23,9 @@
           <div class="title">{{ data.name }} {{ data.filmType.name }}</div>
           <div class="content">
             <!-- 观众评分 -->
-            <div :class="data.grade ? '' : 'hidden'">
-              <span style="color: red">观众评分：{{ data.grade }}</span>
+            <div>
+              <span style="color: red" v-if="data.grade">观众评分：{{ data.grade }}</span>
+              <span v-else>暂无评分</span>
             </div>
             <!-- 电影上映时间 -->
             <div>

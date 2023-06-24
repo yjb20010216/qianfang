@@ -143,7 +143,7 @@ export default {
   width: 0;
 }
 .city_body .city_hot {
-  margin-top: 20px;
+  margin-top: 28px;
 }
 .city_body .city_hot h2 {
   padding-left: 15px;
@@ -187,7 +187,7 @@ export default {
   line-height: 30px;
 }
 .city_body .city_index {
-  width: 30px;
+  width: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,6 +195,6 @@ export default {
   border-left: 1px #e6e6e6 solid;
 }
 .city_body .city_index ul li {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 </style>

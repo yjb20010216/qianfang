@@ -48,7 +48,11 @@ export default {
       username: ''
     }
   },
+  mounted () {
+    // console.log('mounted')
+  },
   activated () {
+    // console.log('actived')
     const qianfangToken = JSON.parse(localStorage.getItem('qianfangToken'))
     this.username = qianfangToken.username
     // console.log(qianfangToken.username)
