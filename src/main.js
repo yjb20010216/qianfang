@@ -5,7 +5,7 @@ import store from './stores/index'
 
 import axios from 'axios'
 
-import '@/assets/icon/iconfont.css'
+// import '@/assets/iconfont/iconfont.css'
 
 // 全局组件
 import Vant from 'vant'
